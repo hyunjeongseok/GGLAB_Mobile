@@ -1,0 +1,22 @@
+header{
+    position: relative;
+    z-index: 1;
+    
+    .group-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        box-shadow: 0 2px  3px 0 rgba(0,0,0,0.1);
+    }
+    .logo{
+        position: absolute;
+        left: 50%; transform: translateX(-50%);
+    }
+    .menu-area{
+        margin-left: 18px;
+    }
+    .cart-area{
+        margin-right: 18px;
+    }
+}
